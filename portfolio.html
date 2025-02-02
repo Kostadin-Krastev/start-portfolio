@@ -19,26 +19,33 @@
 
 <body>
     <header class="header-section">
-        <div class="logo-container">
-            <img src="./assets/images/logo-start.svg" alt="logo of the website Start">
-            <strong class="sub-heading logo-name">Start</strong>
+        <div class="test">
+            <div class="logo-container">
+                <img src="./assets/images/logo-start.svg" alt="logo of the website Start">
+                <strong class="sub-heading logo-name">Start</strong>
+            </div>
+            <nav class="main-menu-container">
+                <ul class="main-menu-items">
+                    <li class="main-menu-item-home"><a class="home-menu-link sub-heading" href="#">Home</a></li>
+                    <li class="main-menu-item-portfolio"><a class="portfolio-menu-link sub-heading"
+                            href="#">Portfolio</a>
+                    </li>
+                    <li class="main-menu-item-services"><a class="services-menu-link sub-heading" href="#">Services</a>
+                    </li>
+                    <li class="main-menu-item-contact"><a class="contact-menu-link sub-heading" href="#">Contact</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
-        <nav class="main-menu-container">
-            <ul class="main-menu-items">
-                <li class="main-menu-item-home"><a class="home-menu-link sub-heading" href="#">Home</a></li>
-                <li class="main-menu-item-portfolio"><a class="portfolio-menu-link sub-heading" href="#">Portfolio</a>
-                </li>
-                <li class="main-menu-item-services"><a class="services-menu-link sub-heading" href="#">Services</a></li>
-                <li class="main-menu-item-contact"><a class="contact-menu-link sub-heading" href="#">Contact</a></li>
-            </ul>
-        </nav>
     </header>
     <main class="content-section">
-        <section class="page-name-section">
-            <p>Works</p>
-            <h1>Portfolio</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-        </section>
+        <div class="page-name-section">
+            <section class="page-name-container">
+                <p class="label">Works</p>
+                <h1>Portfolio</h1>
+                <p class="body-regular">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </section>
+        </div>
         <section class="portfolio-seciotn">
             <figure class="website-img">
                 <img src="./assets/images/portfolio-page-img/Frame-1.svg" alt="landing page design">
@@ -70,18 +77,20 @@
         </button>
     </main>
     <footer class="footer-section">
-        <div class="social-icons">
-            <i class="fa-brands fa-facebook-f"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-x-twitter"></i>
-            <i class="fa-brands fa-pinterest-p"></i>
-            <i class="fa-brands fa-tiktok"></i>
-            <i class="fa-brands fa-whatsapp"></i>
-            <i class="fa-brands fa-youtube"></i>
+        <div class="footer-container">
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <p class="copyright sub-heading">
+                &copy; Start, 2025. All rights reserved.
+            </p>
         </div>
-        <p class="copyright">
-            &copy; Start, 2025. All rights reserved.
-        </p>
     </footer>
 </body>
 
