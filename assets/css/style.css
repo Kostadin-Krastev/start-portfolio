@@ -11,33 +11,84 @@ body {
   margin: 0;
 }
 
-.sub-heading {
-  font-family: 'Work Sans', 'sans-serif';
-  font-size: 1.25rem;
+h1 {
+  font-family: 'Crimson Text', Arial, sans-serif;
+  font-size: 2.5rem;
+  margin: 1rem 0;
+}
+
+h1,
+.sub-heading,
+.label,
+.body-regular {
   line-height: 125%;
+}
+
+.header-section {
+  margin-bottom: 1.875rem;
+}
+
+.sub-heading,
+.label,
+.body-regular {
+  font-family: 'Work Sans', Arial, sans-serif;
+}
+
+.sub-heading,
+.fa-brands {
+  font-size: 1.25rem;
 }
 
 .logo-name {
   font-size: 2.5rem;
 }
 
+.label {
+  font-size: 1rem;
+  letter-spacing: 0.3125rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.body-regular {
+  font-size: 0.9375rem;
+}
+
+/* TESTING WIDTH AND CENTARING THE WHOLE PAGE */
+/* .header-section, */
+.test,
+.content-section {
+  width: 1180px;
+  margin: 0 auto;
+}
+
+.test {
+  display: flex;
+  justify-content: space-between;
+}
+/* END OF THE TEST */
+
 /* GLOBAL FORMAT - HEADER AND FOOTER */
 .header-section,
-.footer-section {
+.footer-section,
+.fa-brands {
   color: var(--white);
   background-color: var(--primary-color);
 }
 
 .header-section,
-.footer-section,
 .logo-container,
-.main-menu-items {
+.main-menu-items,
+.page-name-section,
+.footer-container,
+.social-icons {
   display: flex;
 }
 
 /* header section */
 .header-section {
   justify-content: space-between;
+  align-items: center;
   padding-top: 2.1875rem;
   padding-bottom: 2.375rem;
   padding-left: 8.4375rem;
@@ -47,7 +98,7 @@ body {
 /* GLOBAL FORMAT - LOGO SECTION */
 .logo-container {
   align-items: center;
-  gap: 0.0525rem;
+  gap: 1.125rem;
   width: 11.6875rem;
 }
 
@@ -68,4 +119,36 @@ body {
 .contact-menu-link {
   text-decoration: none;
   color: var(--white);
+}
+
+/* GLOBAL FORMAT - MAIN SECTION */
+.page-name-section {
+  justify-content: center;
+}
+
+.page-name-container {
+  width: 25.6875rem;
+  text-align: center;
+  margin-bottom: 5.125rem;
+}
+
+.label {
+  color: var(--primary-color);
+}
+
+/* GLOBAL FOOTER */
+.footer-container {
+  justify-content: space-between;
+  align-items: center;
+  /* width: 1178px; */
+  width: 1180px;
+  margin: 0 auto;
+  padding-top: 3.1875rem;
+  padding-bottom: 3.0625rem;
+  padding-left: 8.1875rem;
+  padding-right: 8.1875rem;
+}
+.social-icons {
+  justify-content: space-between;
+  width: 15.1875rem;
 }
