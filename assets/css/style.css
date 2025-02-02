@@ -1,4 +1,71 @@
-header,
-footer {
-  background-color: #74c69d;
+/* GLOBAL COLORS - FONTS - MARGIN */
+:root {
+  --primary-color: #74c69d;
+  --secondary-color: #212529;
+  --white: #fff;
+}
+
+html,
+body {
+  font-size: 16px;
+  margin: 0;
+}
+
+.sub-heading {
+  font-family: 'Work Sans', 'sans-serif';
+  font-size: 1.25rem;
+  line-height: 125%;
+}
+
+.logo-name {
+  font-size: 2.5rem;
+}
+
+/* GLOBAL FORMAT - HEADER AND FOOTER */
+.header-section,
+.footer-section {
+  color: var(--white);
+  background-color: var(--primary-color);
+}
+
+.header-section,
+.footer-section,
+.logo-container,
+.main-menu-items {
+  display: flex;
+}
+
+/* header section */
+.header-section {
+  justify-content: space-between;
+  padding-top: 2.1875rem;
+  padding-bottom: 2.375rem;
+  padding-left: 8.4375rem;
+  padding-right: 8.125rem;
+}
+
+/* GLOBAL FORMAT - LOGO SECTION */
+.logo-container {
+  align-items: center;
+  gap: 0.0525rem;
+  width: 11.6875rem;
+}
+
+/* GLOBAL FORMAT - MAIN MENU SECTION */
+.main-menu-container {
+  width: 24.4375rem;
+}
+
+.main-menu-items {
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.home-menu-link,
+.portfolio-menu-link,
+.services-menu-link,
+.contact-menu-link {
+  text-decoration: none;
+  color: var(--white);
 }
