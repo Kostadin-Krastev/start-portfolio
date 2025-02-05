@@ -1,4 +1,8 @@
-.portfolio-seciotn {
+figure img {
+  width: 100%;
+}
+
+.portfolio-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: space-between;
@@ -8,4 +12,20 @@
 
 .button-section {
   margin-bottom: 6.25rem;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 1200px) {
+  .header-section-container,
+  .content-section,
+  .button-section,
+  .footer-container {
+    width: 900px;
+  }
+}
+@media (max-width: 1024px) {
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 568px) {
 }
