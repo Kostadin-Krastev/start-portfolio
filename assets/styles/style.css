@@ -1,0 +1,48 @@
+:root {
+  --primary-color: rgb(116, 198, 157);
+  --primary-color-75: var()
+  --secondary-color: rgb(33, 37, 41);
+  --white-color: rgb(255, 255, 255);
+  font-size: 16px;
+}
+
+/* GLOBAL STYLES */
+body {
+  font-family: 'Work Sans', Arial, sans-serif;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Crimson text', Arial, sans-serif;
+}
+
+header,
+footer {
+  background-color: var(--primary-color);
+}
+
+/* GLOBAL HEADER SECTION*/
+.header-section-container{
+  display: flex;
+  padding-top: 35px;
+  padding-bottom: 38px;
+}
+.logo-container{
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  width: 187px;
+
+}
+.logo-name{
+  font-size: 40px;
+  font-weight: normal;
+  line-height: 125%;
+  color: var(--white-color)
+}
+
