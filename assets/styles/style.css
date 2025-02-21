@@ -43,7 +43,8 @@ footer {
   background-color: var(--primary-color);
 }
 
-.sub-heading{
+.sub-heading,
+.fa-brands{
   font-size: 20px;
 }
 
@@ -114,4 +115,25 @@ color: var(--primary-color);
 .page-name-container .sub-heading{
   margin: 0;
   margin-bottom: 16px;
+}
+
+/* FOOTER SECTION */
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1178px;
+  margin: 0 auto;
+  padding-top: 51px;
+  padding-bottom: 49px;
+}
+.social-icons{
+  display: flex;
+  justify-content: space-between;
+  width: 243px;
+}
+
+.social-icons a,
+.copyright{
+color: var(--white-color);
 }
