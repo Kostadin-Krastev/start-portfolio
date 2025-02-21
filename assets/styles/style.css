@@ -56,6 +56,14 @@ text-transform: uppercase;
 color: var(--primary-color);
 }
 
+/* width of the website content */
+.header-section-container,
+.content-section,
+.footer-container{
+  width: 1180px;
+  margin: auto;
+}
+
 /* GLOBAL HEADER SECTION*/
 .header-section{
   margin-bottom: 30px;
@@ -65,8 +73,8 @@ color: var(--primary-color);
   justify-content: space-between;
   padding-top: 35px;
   padding-bottom: 38px;
-  padding-left: 135px;
-  padding-right: 130px; /*временно се слагат падинги в ляво и дясно. После ще се оправят по друг начин*/
+  /* padding-left: 135px;
+  padding-right: 130px; временно се слагат падинги в ляво и дясно. После ще се оправят по друг начин */
 }
 
 /* logo */
@@ -122,8 +130,8 @@ color: var(--primary-color);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 1178px;
-  margin: 0 auto;
+  /* width: 1178px;
+  margin: 0 auto; */
   padding-top: 51px;
   padding-bottom: 49px;
 }
