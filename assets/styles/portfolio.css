@@ -1,0 +1,10 @@
+.portfolio-section {
+  display: grid;
+  grid-template-columns: 570fr 555fr;
+  justify-items: center;
+  gap: 55px;
+}
+
+img {
+  width: 100%;
+}
