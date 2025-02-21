@@ -29,9 +29,14 @@ footer {
 /* GLOBAL HEADER SECTION*/
 .header-section-container{
   display: flex;
+  justify-content: space-between;
   padding-top: 35px;
   padding-bottom: 38px;
+  padding-left: 135px;
+  padding-right: 130px; /*временно се слагат падинги в ляво и дясно. После ще се оправят по друг начин*/
 }
+
+/* logo */
 .logo-container{
   display: flex;
   gap: 18px;
@@ -46,3 +51,22 @@ footer {
   color: var(--white-color)
 }
 
+/* main menu */
+.main-menu-container{
+  width: 391px;
+}
+
+.main-menu-items{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+.main-menu-items a{
+  font-size: 20px;
+  line-height: 125%;
+  text-decoration: none;
+  color: var(--white-color);
+}
