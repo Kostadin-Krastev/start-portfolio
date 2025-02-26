@@ -1,0 +1,51 @@
+/* BANNER SECTION */
+.banner-section {
+  display: flex;
+  justify-content: space-between;
+  width: 1180px;
+  margin: 0 auto 60px auto;
+  padding-bottom: 83px;
+}
+
+.banner-content-container {
+  width: 416px;
+}
+
+.banner-content-container .label,
+.banner-content-container .banner-title {
+  color: var(--white-color-100);
+}
+
+.banner-title {
+  font-size: 40px;
+}
+
+.banner-text {
+  margin-bottom: 25px;
+  color: var(--white-color-75);
+}
+
+.banner-button {
+  padding: 13px 48px 10px 48px;
+  border: none;
+  border-radius: 5px;
+  color: #000;
+  background-color: var(--white-color-100);
+}
+
+.banner-image-container {
+  width: 644px;
+}
+
+.button-section {
+  margin-top: 64px;
+  margin-bottom: 99px;
+  text-align: center;
+}
+
+.secondary-button {
+  padding: 13px 29.5px 10px 29.5px;
+  border-radius: 5px;
+  color: var(--white-color-100);
+  background-color: var(--secondary-color-100);
+}
