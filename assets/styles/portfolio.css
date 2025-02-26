@@ -8,3 +8,20 @@
 img {
   width: 100%;
 }
+
+.button-section {
+  margin-top: 64px;
+  margin-bottom: 99px;
+  text-align: center;
+}
+
+.secondary-button {
+  padding: 13px 29.5px 10px 29.5px;
+  border-radius: 5px;
+  background-color: var(--secondary-color-100);
+}
+
+.secondary-button a {
+  text-decoration: none;
+  color: var(--white-color-100);
+}
