@@ -58,6 +58,10 @@ h6,
   line-height: 125%;
 }
 
+img {
+  width: 100%;
+}
+
 header,
 footer {
   background-color: var(--primary-color-100);
@@ -128,7 +132,6 @@ footer {
   color: var(--white-color-100);
 }
 
-/* MAIN SECTION */
 /* page name */
 .page-name-container {
   width: 411px;
@@ -148,8 +151,6 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* width: 1178px;
-  margin: 0 auto; */
   padding-top: 51px;
   padding-bottom: 49px;
 }
