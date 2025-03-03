@@ -16,8 +16,14 @@
   color: var(--white-color-100);
 }
 
-.banner-title {
+.banner-title,
+.small-banner-title {
   font-size: 40px;
+}
+
+.small-banner-title,
+.small-banner-text {
+  margin: 0 0 16px 0;
 }
 
 .banner-text {
@@ -38,6 +44,11 @@
 }
 
 /* MAIN SECTION */
+.page-name-section,
+.small-banner1-section {
+  margin-bottom: 73px;
+}
+
 .logos-section {
   display: flex;
   justify-content: space-between;
@@ -75,4 +86,28 @@
   border-radius: 5px;
   color: var(--white-color-100);
   background-color: var(--secondary-color-100);
+}
+
+/* small banners section */
+.small-banner1-section,
+.small-banner2-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.small-banner2-section {
+  margin-bottom: 103px;
+}
+
+.small-banner-img {
+  width: 600px;
+}
+
+.small-banner-content {
+  width: 470px;
+}
+
+.small-banner-text {
+  color: var(--secondary-color-50);
 }
