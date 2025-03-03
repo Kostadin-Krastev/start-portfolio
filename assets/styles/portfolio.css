@@ -3,10 +3,10 @@
   grid-template-columns: 570fr 555fr;
   justify-items: center;
   gap: 55px;
+  margin-bottom: 64px;
 }
 
 .button-section {
-  margin-top: 64px;
   margin-bottom: 99px;
   text-align: center;
 }
