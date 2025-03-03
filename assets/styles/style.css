@@ -135,7 +135,7 @@ footer {
 /* page name */
 .page-name-container {
   width: 411px;
-  margin: 0 auto;
+  margin: 0 auto 55px auto;
   text-align: center;
 }
 

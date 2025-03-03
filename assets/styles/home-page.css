@@ -37,8 +37,36 @@
   width: 644px;
 }
 
+/* MAIN SECTION */
+.logos-section {
+  display: flex;
+  justify-content: space-between;
+  width: 1159px;
+  margin-bottom: 55px;
+}
+
+.google-logo {
+  width: 153px;
+}
+
+.microsoft-logo {
+  width: 211px;
+}
+
+.airbnb-logo {
+  width: 161px;
+}
+
+.facebook-logo {
+  width: 197px;
+}
+
+.spotify-logo {
+  width: 167px;
+}
+
 .button-section {
-  margin-top: 64px;
+  /* margin-top: 64px; */
   margin-bottom: 99px;
   text-align: center;
 }
