@@ -94,3 +94,12 @@
 .small-banner-text {
   color: var(--secondary-color-50);
 }
+
+/* Our talents section */
+.our-talents-text-container {
+  margin-bottom: 45px;
+}
+
+.our-talents-text-container h2 {
+  margin-bottom: 16px;
+}
