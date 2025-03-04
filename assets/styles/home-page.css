@@ -4,6 +4,7 @@
   justify-content: space-between;
   width: 1180px;
   margin: 0 auto 60px auto;
+  padding-top: 40px;
   padding-bottom: 83px;
 }
 
@@ -49,31 +50,11 @@
   margin-bottom: 73px;
 }
 
-.logos-section {
+.partners-section {
   display: flex;
   justify-content: space-between;
-  width: 1159px;
+  list-style-type: none;
   margin-bottom: 55px;
-}
-
-.google-logo {
-  width: 153px;
-}
-
-.microsoft-logo {
-  width: 211px;
-}
-
-.airbnb-logo {
-  width: 161px;
-}
-
-.facebook-logo {
-  width: 197px;
-}
-
-.spotify-logo {
-  width: 167px;
 }
 
 .button-section {
