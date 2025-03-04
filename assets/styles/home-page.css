@@ -59,11 +59,6 @@
   margin-bottom: 55px;
 }
 
-.button-section {
-  margin-bottom: 99px;
-  text-align: center;
-}
-
 .secondary-button {
   padding: 13px 29.5px 10px 29.5px;
   border-radius: 5px;
@@ -102,4 +97,8 @@
 
 .our-talents-text-container h2 {
   margin-bottom: 16px;
+}
+
+.view-team-button {
+  margin: 0;
 }

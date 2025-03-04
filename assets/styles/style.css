@@ -82,6 +82,10 @@ footer {
   color: var(--primary-color-100);
 }
 
+.button-section {
+  text-align: center;
+}
+
 /* width of the website content */
 .header-section-container,
 .content-section,
