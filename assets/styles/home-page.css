@@ -92,11 +92,43 @@
 
 /* Our talents section */
 .our-talents-section {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  align-items: center;
   margin-bottom: 54px;
 }
-.our-talents-text-container,
+
+.our-talents-text-container {
+  width: 411px;
+  text-align: center;
+}
+
 .talents-container {
-  margin-bottom: 45px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 47px;
+}
+
+.talent-cart {
+  padding: 20px 40px;
+  border-radius: 5%;
+  box-shadow: 3px 4px 12px 1px var(--secondary-color-25);
+}
+
+.talent-img-wrapper {
+  height: 175px;
+  width: 175px;
+  margin: 0 13px;
+  overflow-y: hidden;
+  text-align: center;
+  border: 1px solid #000;
+  border-radius: 50%;
+}
+
+.talent-img-wrapper img {
+  width: unset;
+  margin-top: 12px;
 }
 
 .our-talents-text-container h2 {
@@ -105,5 +137,6 @@
 
 .talent-cart p {
   margin: 0;
+  text-transform: uppercase;
   color: var(--secondary-color-75);
 }
