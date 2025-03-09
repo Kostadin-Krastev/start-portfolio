@@ -174,3 +174,35 @@ footer {
 .copyright {
   color: var(--white-color-100);
 }
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 1200px) {
+  .header-section-container,
+  .content-section,
+  .footer-container {
+    width: 900px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .header-section-container,
+  .content-section,
+  .footer-container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-section-container,
+  .content-section,
+  .footer-container {
+    width: 500px;
+  }
+
+  .portfolio-section {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 568px) {
+}
