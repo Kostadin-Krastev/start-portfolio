@@ -198,7 +198,7 @@ footer {
   .footer-container {
     width: 500px;
   }
-}
-
-@media (max-width: 568px) {
+  .footer-container {
+    flex-direction: column;
+  }
 }
