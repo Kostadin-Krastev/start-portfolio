@@ -16,3 +16,10 @@
   color: var(--white-color-100);
   background-color: var(--secondary-color-100);
 }
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+  .portfolio-section {
+    grid-template-columns: 1fr;
+  }
+}

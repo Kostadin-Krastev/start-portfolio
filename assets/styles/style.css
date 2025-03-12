@@ -198,10 +198,6 @@ footer {
   .footer-container {
     width: 500px;
   }
-
-  .portfolio-section {
-    grid-template-columns: 1fr;
-  }
 }
 
 @media (max-width: 568px) {
