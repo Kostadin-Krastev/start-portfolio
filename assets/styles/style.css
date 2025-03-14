@@ -198,7 +198,20 @@ footer {
   .footer-container {
     width: 500px;
   }
+
+  .main-menu-container {
+    display: none;
+  }
+
   .footer-container {
     flex-direction: column;
+  }
+}
+
+@media (max-width: 568px) {
+  .header-section-container,
+  .content-section,
+  .footer-container {
+    width: 320px;
   }
 }
