@@ -24,7 +24,7 @@
 /* GLOBAL STYLES */
 body {
   font-family: 'Work Sans', Arial, sans-serif;
-  font-size: 15px;
+  font-size: 0.9375rem;
   margin: 0;
 }
 
@@ -40,15 +40,15 @@ h6 {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 2.5rem;
 }
 
 h2 {
-  font-size: 32px;
+  font-size: 2rem;
 }
 
 h4 {
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 h1,
@@ -75,11 +75,11 @@ footer {
 
 .sub-heading,
 .fa-brands {
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .label {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: bold;
   letter-spacing: 5px;
   text-transform: uppercase;
@@ -137,7 +137,7 @@ footer {
 }
 
 .main-menu-items a {
-  font-size: 20px;
+  font-size: 1.25rem;
   text-decoration: none;
   color: var(--white-color-100);
 }
