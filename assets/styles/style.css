@@ -112,13 +112,17 @@ footer {
 /* logo */
 .logo-container {
   display: flex;
-  gap: 18px;
+  justify-content: space-between;
   align-items: center;
   width: 187px;
 }
 
+.logo-container img {
+  width: 70px;
+}
+
 .logo-name {
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: normal;
   color: var(--white-color-100);
 }
@@ -197,6 +201,18 @@ footer {
   .content-section,
   .footer-container {
     width: 500px;
+  }
+
+  .logo-container {
+    width: 129px;
+  }
+
+  .logo-container img {
+    width: 45px;
+  }
+
+  .logo-name {
+    font-size: 2rem;
   }
 
   .main-menu-container {
