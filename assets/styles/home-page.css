@@ -4,7 +4,7 @@
 .banner-section {
   display: flex;
   justify-content: space-between;
-  width: 1180px;
+  max-width: 1180px;
   margin: 0 auto 60px auto;
   padding-top: 40px;
   padding-bottom: 83px;
@@ -43,7 +43,7 @@
 }
 
 .banner-image-container {
-  width: 644px;
+  max-width: 644px;
 }
 
 /* MAIN SECTION */
@@ -78,7 +78,7 @@
 }
 
 .small-banner-content {
-  width: 470px;
+  max-width: 470px;
 }
 
 .small-banner-text {
@@ -95,7 +95,7 @@
 }
 
 .our-talents-text-container {
-  width: 411px;
+  max-width: 411px;
   text-align: center;
 }
 
@@ -113,7 +113,7 @@
 
 .talent-img-wrapper {
   height: 175px;
-  width: 175px;
+  max-width: 175px;
   margin: 0 13px;
   overflow-y: hidden;
   text-align: center;
@@ -149,5 +149,24 @@
   .talents-container {
     grid-template-columns: repeat(2, 1fr);
     gap: 60px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .banner-section {
+    width: 700px;
+    flex-direction: column-reverse;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner-section {
+    width: 500px;
+  }
+}
+
+@media (max-width: 568px) {
+  .banner-section {
+    width: 320px;
   }
 }

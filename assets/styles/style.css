@@ -72,7 +72,7 @@ h6,
 }
 
 img {
-  width: 100%;
+  max-width: 100%;
 }
 
 header,
@@ -101,7 +101,7 @@ footer {
 .header-section-container,
 .content-section,
 .footer-container {
-  width: 1180px;
+  max-width: 1180px;
   margin: auto;
 }
 
@@ -123,10 +123,6 @@ footer {
   justify-content: space-between;
   align-items: center;
   width: 187px;
-}
-
-.logo-container img {
-  width: 70px;
 }
 
 .logo-name {
@@ -160,7 +156,7 @@ footer {
 
 /* page name */
 .page-name-container {
-  width: 411px;
+  max-width: 411px;
   margin: 0 auto 55px auto;
   text-align: center;
 }
