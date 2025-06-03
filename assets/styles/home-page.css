@@ -54,9 +54,8 @@
 
 .partners-section {
   display: flex;
-  justify-content: space-between;
-  list-style-type: none;
-  margin-bottom: 55px;
+  gap: 68px;
+  margin: 0 0 55px 0;
 }
 
 .secondary-button {
