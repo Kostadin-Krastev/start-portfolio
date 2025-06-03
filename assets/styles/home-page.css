@@ -11,7 +11,7 @@
 }
 
 .banner-content-container {
-  width: 416px;
+  max-width: 416px;
 }
 
 .banner-content-container .label,
