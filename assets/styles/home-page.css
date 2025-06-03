@@ -138,10 +138,6 @@
 
 /* RESPONSIVE DESIGN */
 @media (max-width: 1200px) {
-  /* .banner-section {
-    flex-direction: column-reverse;
-  } */
-
   .banner-section {
     width: 900px;
   }
@@ -162,6 +158,11 @@
 @media (max-width: 768px) {
   .banner-section {
     width: 500px;
+  }
+
+  .talents-container {
+    grid-template-columns: 1fr;
+    gap: 35px;
   }
 }
 
