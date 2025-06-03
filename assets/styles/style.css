@@ -1,3 +1,10 @@
+/* GLOBAL RESETS */
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+/* GLOBAL COLORS */
 :root {
   --primary-color-rgb: 116, 198, 157;
   --primary-color: rgb(var(--primary-color-rgb));
