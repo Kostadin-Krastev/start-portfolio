@@ -183,6 +183,14 @@
   .partners-section {
     padding: 0;
   }
+
+  .small-banner1-section {
+    flex-direction: column;
+  }
+
+  .small-banner2-section {
+    flex-direction: column-reverse;
+  }
 }
 
 @media (max-width: 568px) {
