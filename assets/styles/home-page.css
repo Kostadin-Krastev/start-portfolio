@@ -205,6 +205,21 @@
     font-size: 1.75rem;
   }
 
+  .page-name-section,
+  .partners-section,
+  .small-banner1-section {
+    margin-bottom: 60px;
+  }
+
+  .small-banner2-section,
+  .our-talents-section {
+    margin-bottom: 40px;
+  }
+
+  .our-talents-section {
+    gap: 40px;
+  }
+
   .partners-section {
     grid-template-columns: 1fr;
     justify-items: center;
