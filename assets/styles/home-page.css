@@ -147,6 +147,11 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 60px;
   }
+
+  .small-banner1-section,
+  .small-banner2-section {
+    gap: 50px;
+  }
 }
 
 @media (max-width: 1024px) {
