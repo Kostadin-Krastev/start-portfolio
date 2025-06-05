@@ -198,7 +198,15 @@
     width: 320px;
   }
 
-  .banner-title {
+  h1,
+  h2,
+  .banner-title,
+  .small-banner-title {
     font-size: 1.75rem;
+  }
+
+  .partners-section {
+    grid-template-columns: 1fr;
+    justify-items: center;
   }
 }
