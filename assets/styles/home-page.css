@@ -151,8 +151,6 @@
 @media (max-width: 1024px) {
   .banner-section {
     width: 700px;
-    flex-direction: column-reverse;
-    gap: 30px;
     padding-bottom: 40px;
     margin-bottom: 22px;
   }
@@ -161,6 +159,8 @@
 @media (max-width: 768px) {
   .banner-section {
     width: 500px;
+    flex-direction: column-reverse;
+    gap: 30px;
   }
 
   .talents-container {
@@ -172,5 +172,9 @@
 @media (max-width: 568px) {
   .banner-section {
     width: 320px;
+  }
+
+  .banner-title {
+    font-size: 1.75rem;
   }
 }
