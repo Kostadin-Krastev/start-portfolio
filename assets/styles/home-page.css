@@ -179,6 +179,10 @@
     grid-template-columns: 1fr;
     gap: 35px;
   }
+
+  .partners-section {
+    padding: 0;
+  }
 }
 
 @media (max-width: 568px) {
