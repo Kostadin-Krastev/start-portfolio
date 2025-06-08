@@ -1,0 +1,25 @@
+.page-name-section {
+  margin-bottom: 78px;
+}
+
+.price-plan-container {
+  max-width: 339px;
+  padding: 46px 30px;
+}
+
+.price-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 9px;
+  max-width: 159px;
+}
+
+.price-number {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.price-period {
+  color: var(--secondary-color-50);
+}
