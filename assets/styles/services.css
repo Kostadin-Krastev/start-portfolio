@@ -69,3 +69,13 @@ ul {
   display: block;
   margin: 0 auto;
 }
+
+/* responsive design */
+
+@media (max-width: 1200px) {
+  .price-plan-container {
+    max-width: 240px;
+    padding-right: 18px;
+    padding-left: 18px;
+  }
+}
