@@ -11,9 +11,21 @@ ul {
 }
 
 /* price style */
+.price-plans-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 135px;
+}
+
 .price-plan-container {
   max-width: 339px;
   padding: 46px 30px;
+  border-radius: 5px;
+  box-shadow: 3px 4px 12px 1px var(--secondary-color-25);
+}
+
+.price-plan-name {
+  text-align: center;
 }
 
 .price-info-container {
@@ -39,7 +51,7 @@ ul {
   margin-bottom: 52px;
 }
 
-/* price plan includes */
+/* price plan includes list */
 .price-plan-includes li {
   margin-bottom: 11px;
 }
@@ -50,4 +62,10 @@ ul {
 
 .checkmark-icon {
   margin-right: 11px;
+}
+
+/* button learn more */
+.secondary-button {
+  display: block;
+  margin: 0 auto;
 }
