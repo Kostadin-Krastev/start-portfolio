@@ -1,3 +1,10 @@
+/* PAGE RESET */
+p {
+  padding: 0;
+  margin: 0;
+}
+
+/* PAGE STYLES */
 .page-name-section {
   margin-bottom: 78px;
 }
@@ -7,12 +14,12 @@
   padding: 46px 30px;
 }
 
-.price-container {
+.price-info-container {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 9px;
-  max-width: 159px;
+  margin-bottom: 10px;
 }
 
 .price-number {
@@ -20,6 +27,11 @@
   font-weight: bold;
 }
 
-.price-period {
+.price-period,
+.price-info-text {
   color: var(--secondary-color-50);
+}
+
+.price-info-text {
+  text-align: center;
 }
