@@ -4,6 +4,10 @@ body {
   padding: 0;
 }
 
+.contact-us {
+  margin-bottom: 93px;
+}
+
 /* contact form */
 .contact-form {
   max-width: 575px;
