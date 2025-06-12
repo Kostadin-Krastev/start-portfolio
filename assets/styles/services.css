@@ -71,11 +71,34 @@ ul {
 }
 
 /* responsive design */
-
 @media (max-width: 1200px) {
   .price-plan-container {
     max-width: 240px;
     padding-right: 18px;
     padding-left: 18px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .price-plans-section {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .price-plans-section {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 568px) {
+  .page-name-section,
+  .page-name-container {
+    margin-bottom: 46px;
+  }
+
+  .price-plans-section {
+    margin-bottom: 68px;
   }
 }
