@@ -52,3 +52,15 @@ body {
 .contact-form-message-container textarea {
   padding: 22px 0 22px 0;
 }
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 1200px) {
+  .contact-us {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .map {
+    margin-bottom: 21px;
+  }
+}
