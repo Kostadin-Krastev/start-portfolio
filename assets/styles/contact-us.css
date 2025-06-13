@@ -53,6 +53,11 @@ body {
   padding: 22px 0 22px 0;
 }
 
+.map {
+  width: 575px;
+  height: 370px;
+}
+
 /* RESPONSIVE DESIGN */
 @media (max-width: 1200px) {
   .contact-us {
@@ -62,5 +67,19 @@ body {
 
   .map {
     margin-bottom: 21px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-form,
+  .map {
+    width: 558px;
+  }
+}
+
+@media (max-width: 568px) {
+  .contact-form,
+  .map {
+    width: 335px;
   }
 }
