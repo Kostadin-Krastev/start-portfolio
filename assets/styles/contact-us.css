@@ -5,12 +5,15 @@ body {
 }
 
 .contact-us {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
   margin-bottom: 93px;
 }
 
 /* contact form */
 .contact-form {
-  max-width: 575px;
+  width: 575px;
 }
 
 .contact-form label {
