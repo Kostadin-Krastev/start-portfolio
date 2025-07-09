@@ -119,8 +119,10 @@ footer {
 .header-section {
   margin-bottom: 30px;
 }
+
 .header-section-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   padding-top: 35px;
@@ -233,8 +235,27 @@ footer {
     font-size: 2rem;
   }
 
+  /* Switch navigation to burger menu */
   .main-menu-container {
-    display: none;
+    /* display: none; */
+  }
+
+  .main-menu-items {
+    flex-direction: column;
+  }
+
+  .main-menu-items li {
+    border-bottom: 1px solid var(--white-color-75);
+    width: 100%;
+    padding-bottom: 15px;
+  }
+
+  .main-menu-items li:not(li:first-child) {
+    padding-top: 15px;
+  }
+
+  .main-menu-items a {
+    font-size: 2rem;
   }
 
   .burger-menu {
