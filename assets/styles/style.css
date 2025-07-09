@@ -245,7 +245,7 @@ footer {
   }
 
   .main-menu-items li {
-    border-bottom: 1px solid var(--white-color-75);
+    border-bottom: 1px solid var(--white-color-50);
     width: 100%;
     padding-bottom: 15px;
   }
