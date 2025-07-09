@@ -168,6 +168,14 @@ footer {
   height: 36px;
 }
 
+.open-burger-menu {
+  background-image: url(../images/burger-menu.svg);
+}
+
+.close-burger-menu {
+  background-image: url(../images/burger-menu-close.svg);
+}
+
 /* page name */
 .page-name-container {
   max-width: 411px;
@@ -239,7 +247,7 @@ footer {
 
   /* Switch navigation to burger menu */
   .main-menu-container {
-    /* display: none; */
+    display: none;
   }
 
   .main-menu-items {
@@ -261,7 +269,7 @@ footer {
   }
 
   .burger-menu {
-    /* display: block; */
+    display: block;
   }
 
   .footer-container {
