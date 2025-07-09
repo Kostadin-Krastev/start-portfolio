@@ -164,6 +164,8 @@ footer {
 
 .burger-menu {
   display: none;
+  width: 35px;
+  height: 36px;
 }
 
 /* page name */
@@ -259,7 +261,7 @@ footer {
   }
 
   .burger-menu {
-    display: inline-block;
+    /* display: block; */
   }
 
   .footer-container {
