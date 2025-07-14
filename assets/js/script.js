@@ -12,7 +12,7 @@ function onBurgerMenuClick() {
   // Show mobile navigation
   mainMenuContainerElement.style.display = 'block';
 
-  // Toggle burger menu icon
+  // Toggle burger menu icon and navigation
   if (burgerMenuElement.classList.contains('open-burger-menu')) {
     burgerMenuElement.classList.replace(
       'open-burger-menu',
@@ -23,6 +23,7 @@ function onBurgerMenuClick() {
       'close-burger-menu',
       'open-burger-menu'
     );
+    mainMenuContainerElement.style.display = '';
   }
 }
 
